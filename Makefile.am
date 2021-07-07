@@ -2,7 +2,7 @@ DISTCHECK_CONFIGURE_FLAGS = --disable-icon-mapping
 
 SUBDIRS = \
 	po $(SVGSRCDIR) \
-	menta \
+	mint \
 	cafe
 
 theme_in_files = index.theme.in.in
@@ -92,7 +92,7 @@ install-data-local:
 EXTRA_DIST = \
 	autogen.sh \
 	cafe \
-	menta \
+	mint \
 	$(theme_in_files)
 
 CLEANFILES = \

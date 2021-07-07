@@ -60,7 +60,7 @@ AC_CONFIG_FILES([
 Makefile
 po/Makefile.in
 src/Makefile
-menta/Makefile
+mint/Makefile
 cafe/Makefile
 cafe/scalable/Makefile
 cafe/scalable-up-to-32/Makefile

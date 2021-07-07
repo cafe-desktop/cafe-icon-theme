@@ -1,14 +1,14 @@
-themedir = $(datadir)/icons/menta
+themedir = $(datadir)/icons/mint
 
 install-data-local:
 	$(mkdir_p) $(DESTDIR)$(themedir); \
-	for dir in `cd $(top_srcdir)/menta && find . -type d | sed s/.//`; do \
+	for dir in `cd $(top_srcdir)/mint && find . -type d | sed s/.//`; do \
 		$(mkdir_p) $(DESTDIR)$(themedir)$$dir; \
 	done; \
-	for file in `cd $(top_srcdir)/menta && find . -name "*.png" | sed s@./@/@`; do \
-		$(install_sh_DATA) $(top_srcdir)/menta/$$file $(DESTDIR)$(themedir)/$$file; \
+	for file in `cd $(top_srcdir)/mint && find . -name "*.png" | sed s@./@/@`; do \
+		$(install_sh_DATA) $(top_srcdir)/mint/$$file $(DESTDIR)$(themedir)/$$file; \
 	done; \
-	$(install_sh_DATA) $(top_srcdir)/menta/index.theme $(DESTDIR)$(themedir)/index.theme; \
+	$(install_sh_DATA) $(top_srcdir)/mint/index.theme $(DESTDIR)$(themedir)/index.theme; \
 	if [ $(ICONMAP) != "false" ]; then \
 		cd $(DESTDIR)$(themedir); \
 		for size in `find . -mindepth 1 -maxdepth 1 -type d | sed s@./@@`; do \
