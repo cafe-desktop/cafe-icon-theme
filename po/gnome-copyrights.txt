@@ -279,9 +279,9 @@
 # traducción de es.po al Spanish
 # translation of es.po to Spanish
 # translation of cafe-icon-theme.HEAD.po to Spanish
-# Mate Icon Theme Spanish Translation
-# Copyright (C) 2002 Mate Software Foundation
-# This file is distributed under the same license as the Mate-Icon-Theme package.
+# Cafe Icon Theme Spanish Translation
+# Copyright (C) 2002 Cafe Software Foundation
+# This file is distributed under the same license as the Cafe-Icon-Theme package.
 #
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002.
 # Francisco Javier F. Serrador <serrador@arrakis.es>, 2003.
@@ -356,7 +356,7 @@
 
 
 ========== fur.po ==========
-# Friulian translation of Mate-icon-theme.
+# Friulian translation of Cafe-icon-theme.
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # Massimo Furlani <massimo.furlani@libero.it>, 2007.
 #
@@ -423,7 +423,7 @@
 
 ========== hi.po ==========
 # translation of hi.po to Hindi
-# Mate icon themes Hindi translation.
+# Cafe icon themes Hindi translation.
 # Copyright (C) 2003 G Karunakar
 # This file is distributed under the same license as the cafe-icon-theme package.
 #
@@ -848,7 +848,7 @@
 # This file is distributed under the same license as the cafe-icon-theme package.
 #
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
-# Matej Urbančič <cafeju@svn.gnome.org>, 2007 - 2010.
+# Cafej Urbančič <cafeju@svn.gnome.org>, 2007 - 2010.
 #
 
 
@@ -999,7 +999,7 @@
 
 ========== vi.po ==========
 # Vietnamese translation for cafe-icon-theme.
-# Copyright © 2007 Mate i18n Project for Vietnamese.
+# Copyright © 2007 Cafe i18n Project for Vietnamese.
 # T.M.Thanh <tmthanh@yahoo.com>, 2002.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2007.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2007.

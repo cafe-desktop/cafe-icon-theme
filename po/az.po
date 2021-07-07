@@ -27,4 +27,4 @@ msgstr "CAFE"
 
 #: ../index.theme.in.in.h:2
 msgid "Default CAFE Theme"
-msgstr "Ön Qurğulu Mate Örtüyü"
+msgstr "Ön Qurğulu Cafe Örtüyü"
