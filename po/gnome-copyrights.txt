@@ -77,7 +77,7 @@
 
 
 ========== bg.po ==========
-# Bulgarian translation of MATE icon theme.
+# Bulgarian translation of CAFE icon theme.
 # Copyright (C) 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the cafe icon theme package.
 # Alexander Shopov <ash@contact.bg>, 2004, 2005, 2007, 2008.
@@ -292,8 +292,8 @@
 
 
 ========== et.po ==========
-# MATE ikooniteema eesti keele tõlge.
-# Estonian translation of MATE icon theme.
+# CAFE ikooniteema eesti keele tõlge.
+# Estonian translation of CAFE icon theme.
 #
 # Copyright (C) 2003, 2005 Free Software Foundation, Inc.
 # Copyright (C) 2007 The GNOME Project
@@ -584,7 +584,7 @@
 
 
 ========== mg.po ==========
-# MALAGASY TRANSLATION OF MATE-ICON-THEME.
+# MALAGASY TRANSLATION OF CAFE-ICON-THEME.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Thierry Randrianiriana <thierry@isvtec.com>, 2006.
@@ -1011,7 +1011,7 @@
 ========== wa.po ==========
 # SOME DESCRIPTIVE TITLE.
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2003 the MATE team.
+# Copyright (C) 2003 the CAFE team.
 # Pablo Saratxaga <pablo@walon.org>, 2003.
 #
 
