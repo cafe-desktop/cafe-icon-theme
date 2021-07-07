@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/icons/mate
+themedir = $(datadir)/icons/cafe
 
 SUBDIRS = scalable \
     scalable-up-to-32
