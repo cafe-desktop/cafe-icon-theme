@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-23 15:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,9 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../index.theme.in.in.h:1
-msgid "MATE"
+msgid "CAFE"
 msgstr ""
 
 #: ../index.theme.in.in.h:2
-msgid "Default MATE Theme"
+msgid "Default CAFE Theme"
 msgstr ""
