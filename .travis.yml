@@ -1,77 +1,48 @@
-# vim: set ts=2 sts=2 sw=2 expandtab :
-dist: xenial
-sudo: required
-language: bash
+dist: focal
+language: shell
+os: linux
 services:
   - docker
+addons:
+  apt:
+    packages:
+      - python3-pip
+      - python3-setuptools
 
 before_install:
-  - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
+  - curl -Ls -o docker-build https://github.com/cafe-desktop/cafe-dev-scripts/raw/master/travis/docker-build
   - chmod +x docker-build
 
 install:
-  - sudo apt-get install -y python3-pip python3-setuptools
-  - sudo pip3 install --upgrade pip
-  - sudo pip install PyGithub
-  - ./docker-build --name ${DISTRO} --config .travis.yml --install
+  - pip3 install PyGithub
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - ./docker-build --name ${DISTRO} --config .build.yml --install
 
 script:
-  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build autotools
+  - ./docker-build --name ${DISTRO} --verbose --config .build.yml --build autotools
+
+notifications:
+  irc:
+    if: (tag OR branch = master) AND
+        repo = "cafe-desktop/cafe-icon-theme"
+    channels:
+      - "irc.libera.chat#cafe"
+    template:
+      - "[%{repository_name}] %{author}: %{commit_subject}"
+      - "[%{branch}] %{commit} %{message} %{build_url}"
+    on_success: never
+    on_failure: always
+
+deploy:
+  - provider: script
+    edge: true
+    script: ./docker-build --verbose --config .build.yml --release github
+    on:
+      tags: true
+      condition: "${TRAVIS_TAG} =~ ^v.*$ && ${DISTRO} =~ ^fedora.*$"
 
 env:
-  - DISTRO="archlinux/base"
-  - DISTRO="debian:sid"
-  - DISTRO="fedora:29"
-  - DISTRO="ubuntu:18.10"
-
-##########################################################
-# THE FOLLOWING LINES IS USED BY docker-build
-##########################################################
-requires:
-  archlinux:
-    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/mate-icon-theme
-    - gcc
-    - git
-    - icon-naming-utils
-    - make
-    - mate-common
-    - which
-
-  debian:
-    # Useful URL: https://github.com/mate-desktop/debian-packages
-    # Useful URL: https://salsa.debian.org/debian-mate-team/mate-icon-theme
-    - git
-    - icon-naming-utils
-    - intltool
-    - librsvg2-bin
-    - make
-    - mate-common
-
-  fedora:
-    # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-icon-theme.git
-    - gcc
-    - git
-    - icon-naming-utils
-    - make
-    - mate-common
-    - redhat-rpm-config
-
-  ubuntu:
-    - git
-    - icon-naming-utils
-    - intltool
-    - librsvg2-bin
-    - make
-    - mate-common
-
-variables:
-  - CFLAGS="-Wall -Werror=format-security"
-
-before_scripts:
-  - if [ ${DISTRO_NAME} == "debian" ];then
-  -     curl -Ls -o debian.sh https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/debian.sh
-  -     bash ./debian.sh
-  - fi
-
-after_scripts:
-  - make distcheck
+  - DISTRO="archlinux:latest"
+  - DISTRO="debian:testing"
+  - DISTRO="fedora:rawhide"
+  - DISTRO="ubuntu:devel"

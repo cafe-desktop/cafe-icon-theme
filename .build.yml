@@ -1,0 +1,66 @@
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+requires:
+  archlinux:
+    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/cafe-icon-theme
+    - curl
+    - gcc
+    - git
+    - icon-naming-utils
+    - intltool
+    - make
+    - mate-common
+    - which
+
+  debian:
+    # Useful URL: https://github.com/cafe-desktop/debian-packages
+    # Useful URL: https://salsa.debian.org/debian-cafe-team/cafe-icon-theme
+    - autopoint
+    - curl
+    - git
+    - icon-naming-utils
+    - intltool
+    - librsvg2-bin
+    - make
+    - mate-common
+
+  fedora:
+    # Useful URL: https://src.fedoraproject.org/cgit/rpms/cafe-icon-theme.git
+    - curl
+    - gcc
+    - git
+    - intltool
+    - icon-naming-utils
+    - make
+    - mate-common
+    - redhat-rpm-config
+
+  ubuntu:
+    - autopoint
+    - curl
+    - git
+    - intltool
+    - icon-naming-utils
+    - librsvg2-bin
+    - make
+    - mate-common
+
+variables:
+  - CFLAGS="-Wall -Werror=format-security"
+
+after_scripts:
+#  - make distcheck
+
+releases:
+  draft: false
+  prerelease: false
+  checksum: true
+  file_glob: true
+  files: cafe-icon-theme-*.tar.xz
+  github_release:
+    tags: true
+    overwrite: true
+    base_version: 1.20.0
+    notify_servers:
+      - https://release.cafe-desktop.org/release
