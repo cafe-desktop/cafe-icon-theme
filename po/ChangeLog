@@ -1002,7 +1002,7 @@
 
 	* he.po: Updated Hebrew translation.
 
-=== mate-icon-theme 1.2.1 ===
+=== cafe-icon-theme 1.2.1 ===
 
 2004-04-09  Guntupalli Karunakar  <karunakar@freedomink.org>
 
@@ -1019,7 +1019,7 @@
         * bg.po: Updated Bulgarian translation by
 	Vladimir Petkov <vpetkov@i-space.org>.
 
-=== mate-icon-theme 1.2.0 ===
+=== cafe-icon-theme 1.2.0 ===
 
 2004-03-21  ?ygimantas Beru?ka  <uid0@akl.lt>
 
@@ -1038,7 +1038,7 @@
 
 	* en_GB.po: Added British translation
 
-=== mate-icon-theme 1.1.91 ===
+=== cafe-icon-theme 1.1.91 ===
 
 2004-03-13  Maxim Dziumanenko <mvd@mylinux.com.ua>
 
@@ -1057,7 +1057,7 @@
 
 	* es.po: Updated Spansih translation.
 
-=== mate-icon-theme 1.1.90 ===
+=== cafe-icon-theme 1.1.90 ===
 
 2004-03-06  Ales Nyakhaychyk  <nab@mail.by>
 
@@ -1085,7 +1085,7 @@
 
 	* hi.po: Completed Hindi translation.
 
-=== mate-icon-theme 1.1.8 ===
+=== cafe-icon-theme 1.1.8 ===
 
 2004-02-21  Christian Rose  <menthos@menthos.com>
 
@@ -1115,7 +1115,7 @@
 	* sr.po, sr@Latn.po: Serbian translation reviewed by Aleksandar
 	Uro??evi?.
 
-=== mate-icon-theme 1.1.7 ===
+=== cafe-icon-theme 1.1.7 ===
 
 2004-02-10  Pauli Virtanen  <pauli.virtanen@hut.fi>
 
@@ -1133,7 +1133,7 @@
 
 	* az.po: Translation updated.
 
-=== mate-icon-theme 1.1.6 ===
+=== cafe-icon-theme 1.1.6 ===
 
 2004-01-23  Funda Wang  <fundawang@linux.net.cn>
 
@@ -1147,7 +1147,7 @@
 
 	* sq.po: Updated Albanian translation.
 
-=== mate-icon-theme 1.1.5 ===
+=== cafe-icon-theme 1.1.5 ===
 
 2004-04-04  Duarte Loreto <happyguy_pt@hotmail.com>
 
@@ -1162,7 +1162,7 @@
 	* it.po: Updated Italian translation by
 	Luca Ferretti <elle.uca@infinito.it>.
 
-=== mate-icon-theme 1.1.4 ===
+=== cafe-icon-theme 1.1.4 ===
 
 2003-12-22  Laurent Dhima  <laurenti@alblinux.net>
 
@@ -1181,7 +1181,7 @@
 	* et.po: Updated Estonian translation
 	by Allan Sims <allsi@eau.ee>.
 
-=== mate-icon-theme 1.1.3 ===
+=== cafe-icon-theme 1.1.3 ===
 
 2003-12-04  I?aki Larra?aga <dooteo@euskalgnu.org>
 
@@ -1201,13 +1201,13 @@
 
 	* no.po: Update Norwegian translation.
 
-=== mate-icon-theme 1.1.2 ===
+=== cafe-icon-theme 1.1.2 ===
 
 2003-11-12  Artur Flinta  <aflinta@cvs.gnome.org>
 
 	* pl.po: Updated Polish translation.
 
-=== mate-icon-theme 1.1.1 ===
+=== cafe-icon-theme 1.1.1 ===
 
 2003-11-10  Sanlig Badral  <badral@openmn.org>
 
@@ -1269,7 +1269,7 @@
 
 	* sv.po: Updated Swedish translation.
 
-=== mate-icon-theme 1.1.0 ===
+=== cafe-icon-theme 1.1.0 ===
 
 2003-10-20  Miloslav Trmac  <mitr@volny.cz>
 
@@ -1292,7 +1292,7 @@
 
 	* uk.po: Updated Ukrainian translation.
 
-=== mate-icon-theme 1.0.9 ===
+=== cafe-icon-theme 1.0.9 ===
 
 2003-09-02  Mugurel Tudor  <mugurelu@go.ro>
 
@@ -1322,7 +1322,7 @@
 
 	* nl.po: Dutch translation updated by Kees van den Broek.
 
-=== mate-icon-theme 1.0.7 ===
+=== cafe-icon-theme 1.0.7 ===
 
 2003-08-23  Changwoo Ryu  <cwryu@debian.org>
 
@@ -1460,14 +1460,14 @@
 
 	* sv.po: Updated Swedish translation.
 
-=== mate-icon-theme 1.0.5 ===
+=== cafe-icon-theme 1.0.5 ===
 
 2003-06-05 Mathieu van Woerkom <mathieu@brabants.org>
 
 	* li.po: Added Limburgish translation
 
-=== mate-icon-theme 1.0.4 ===
-=== mate-icon-theme 1.0.3 ===
+=== cafe-icon-theme 1.0.4 ===
+=== cafe-icon-theme 1.0.3 ===
 
 2003-05-06  Danilo ??? egan  <dsegan@gmx.net>
 
@@ -1478,14 +1478,14 @@
 
 	* ta.po: Committed new Tamil translation by Dinesh.
 
-=== mate-icon-theme 1.0.2 ===
+=== cafe-icon-theme 1.0.2 ===
 
 2003-03-13  Christian Rose  <menthos@menthos.com>
 
 	* ml.po: Added Malayalam translation by
 	FSF-India <locale@gnu.org.in>.
 
-=== mate-icon-theme 1.0.1 ===
+=== cafe-icon-theme 1.0.1 ===
 
 2003-03-07  Christian Rose  <menthos@menthos.com>
 
@@ -1503,7 +1503,7 @@
 2003-02-20  Naba Kumar  <naba@gnome.org>
 
 	* hi.po: Added new Hindi translation from
-	Mate Hindi Team <indlinux-hindi-mate@lists.sourceforge.net>
+	Mate Hindi Team <indlinux-hindi-cafe@lists.sourceforge.net>
 
 2003-02-20  Roozbeh Poruadner  <roozbeh@sharif.edu>
 
@@ -1558,7 +1558,7 @@
 	* mn.po: Added Mongolian translation by
 	Sanlig Badral <badral@chinggis.com>.
 
-=== mate-icon-theme 1.0.0 ===
+=== cafe-icon-theme 1.0.0 ===
 
 2003-01-20  Yuriy Syrota <rastaman@renome.rovno.ua>
 
@@ -1580,7 +1580,7 @@
 
 	* am.po: Updated Amharic translation.
 
-=== mate-icon-theme 0.91 ===
+=== cafe-icon-theme 0.91 ===
 
 2003-01-12  Laurent Dhima <laurenti@alblinux.net>
 
@@ -1635,7 +1635,7 @@
 	* bg.po: Updated Bulgarian translation (style) by
 	Alexander Shopov <al_shopov@yahoo.com>.
 
-=== mate-icon-theme 0.1.5 ===
+=== cafe-icon-theme 0.1.5 ===
 
 2002-12-16  Hasbullah Bin Pit <sebol@ikhlas.com>
 
@@ -1653,7 +1653,7 @@
 
 	* bg.po (added): Added Bulgarian translation.
 
-=== mate-icon-theme 0.1.4 ===
+=== cafe-icon-theme 0.1.4 ===
 
 2002-12-06  Andras Timar  <timar@gnome.hu>
 
@@ -1691,17 +1691,17 @@
 2002-11-25  Christian Rose  <menthos@menthos.com>
 
 	* .cvsignore: Added.
-	* mate-icon-theme.pot: Removed. This is a generated file.
+	* cafe-icon-theme.pot: Removed. This is a generated file.
 	* sv.po: Added Swedish translation.
 
-=== mate-icon-theme 0.1.3 ===
-=== mate-icon-theme 0.1.2 ===
+=== cafe-icon-theme 0.1.3 ===
+=== cafe-icon-theme 0.1.2 ===
 
 2002-11-15  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* no.po: Added Norwegian translation.
 
-=== mate-icon-theme 0.1.1 ===
+=== cafe-icon-theme 0.1.1 ===
 
 2002-11-13  Christian Neumair  <chris@gnome-de.org>
 

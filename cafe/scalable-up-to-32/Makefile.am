@@ -1,12 +1,12 @@
-themedir = $(datadir)/icons/mate/scalable-up-to-32
+themedir = $(datadir)/icons/cafe/scalable-up-to-32
 
 install-data-local:
 	$(mkdir_p) $(DESTDIR)$(themedir); \
-	for dir in `cd $(top_srcdir)/mate/scalable-up-to-32 && find . -type d | sed s/.//`; do \
+	for dir in `cd $(top_srcdir)/cafe/scalable-up-to-32 && find . -type d | sed s/.//`; do \
 		$(mkdir_p) $(DESTDIR)$(themedir)$$dir; \
 	done; \
-	for file in `cd $(top_srcdir)/mate/scalable-up-to-32 && find . -name "*.svg" | sed s@./@/@`; do \
-		$(install_sh_DATA) $(top_srcdir)/mate/scalable-up-to-32$$file $(DESTDIR)$(themedir)/$$file; \
+	for file in `cd $(top_srcdir)/cafe/scalable-up-to-32 && find . -name "*.svg" | sed s@./@/@`; do \
+		$(install_sh_DATA) $(top_srcdir)/cafe/scalable-up-to-32$$file $(DESTDIR)$(themedir)/$$file; \
 	done;
 
 uninstall-local:

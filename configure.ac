@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([mate-icon-theme], [1.22.0], [http://www.mate-desktop.org])
+AC_INIT([cafe-icon-theme], [1.22.0], [http://www.cafe-desktop.org])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip foreign check-news])
@@ -18,11 +18,11 @@ AC_SUBST(localedir)
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
 # Define the toplevel path here
-AC_SUBST(themedir, "\${datadir}/icons/mate")
+AC_SUBST(themedir, "\${datadir}/icons/cafe")
 
 # Input and Output dirs for the rendering
 AC_SUBST(SVGSRCDIR, "src")
-AC_SUBST(SVGOUTDIR, "mate")
+AC_SUBST(SVGOUTDIR, "cafe")
 
 # Icon sizes we want to install
 AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
@@ -48,7 +48,7 @@ if test "x$enable_mapping" != "xno"; then
    else
       AC_MSG_RESULT([no])
       AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
-                    and install mate-icon-theme])
+                    and install cafe-icon-theme])
    fi
 else
    ICONMAP="false"
@@ -61,9 +61,9 @@ Makefile
 po/Makefile.in
 src/Makefile
 menta/Makefile
-mate/Makefile
-mate/scalable/Makefile
-mate/scalable-up-to-32/Makefile
+cafe/Makefile
+cafe/scalable/Makefile
+cafe/scalable-up-to-32/Makefile
 ])
 
 AC_OUTPUT
