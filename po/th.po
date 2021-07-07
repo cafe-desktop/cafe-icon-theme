@@ -27,4 +27,4 @@ msgstr "CAFE"
 
 #: ../index.theme.in.in.h:2
 msgid "Default CAFE Theme"
-msgstr "ชุดตกแต่งปริยายของ Mate"
+msgstr "ชุดตกแต่งปริยายของ Cafe"
