@@ -25,6 +25,7 @@ requires:
     - intltool
     - librsvg2-bin
     - make
+    - pkg-config
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/cafe-icon-theme.git
@@ -44,6 +45,7 @@ requires:
     - icon-naming-utils
     - librsvg2-bin
     - make
+    - pkg-config
 
 variables:
   - CFLAGS="-Wall -Werror=format-security"
