@@ -14,9 +14,6 @@ requires:
     - make
     - pkg-config
 
-variables:
-  - CFLAGS="-Wall -Werror=format-security"
-
 before_scripts:
   # Install cafe-common from master branch
   - if [ ! -e cafe-common-master ]; then
@@ -35,16 +32,3 @@ before_scripts:
 
 after_scripts:
 #  - make distcheck
-
-releases:
-  draft: false
-  prerelease: false
-  checksum: true
-  file_glob: true
-  files: cafe-icon-theme-*.tar.xz
-  github_release:
-    tags: true
-    overwrite: true
-    base_version: 1.20.0
-    notify_servers:
-      - https://release.cafe-desktop.org/release
