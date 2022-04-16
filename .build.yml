@@ -8,7 +8,7 @@ requires:
     - autopoint
     - curl
     - git
-    - icon-naming-utils
+    - ctk-icon-naming-utils
     - intltool
     - librsvg2-bin
     - make

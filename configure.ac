@@ -38,16 +38,16 @@ ICONMAP="true"
 if test "x$enable_mapping" != "xno"; then
    UTILS_REQUIRED=0.8.7
 
-   AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])
-   PKG_CHECK_EXISTS(icon-naming-utils >= $UTILS_REQUIRED,
+   AC_MSG_CHECKING([ctk-icon-naming-utils >= $UTILS_REQUIRED])
+   PKG_CHECK_EXISTS(ctk-icon-naming-utils >= $UTILS_REQUIRED,
                     have_utils=yes, have_utils=no)
    if test "x$have_utils" = "xyes"; then
-      UTILS_PATH="`$PKG_CONFIG --variable=program_path icon-naming-utils`"
-      ICONMAP="$UTILS_PATH/icon-name-mapping"
+      UTILS_PATH="`$PKG_CONFIG --variable=program_path ctk-icon-naming-utils`"
+      ICONMAP="$UTILS_PATH/ctk-icon-name-mapping"
       AC_MSG_RESULT([yes])
    else
       AC_MSG_RESULT([no])
-      AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
+      AC_MSG_ERROR([ctk-icon-naming-utils >= $UTILS_REQUIRED is required to build
                     and install cafe-icon-theme])
    fi
 else
