@@ -10,6 +10,7 @@ requires:
     - git
     - intltool
     - librsvg2-bin
+    - libxml-simple-perl #required for ctk-icon-naming-utils
     - make
     - pkg-config
 
