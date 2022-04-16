@@ -24,6 +24,4 @@ build_scripts:
   - make
   - make check
   - make install
-
-after_scripts:
   - make distcheck
