@@ -2,19 +2,6 @@
 # THE FOLLOWING LINES IS USED BY docker-build
 ##########################################################
 requires:
-  archlinux:
-    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/cafe-icon-theme
-    - autoconf
-    - automake
-    - curl
-    - gcc
-    - git
-    - icon-naming-utils
-    - intltool
-    - make
-    - pkgconf
-    - which
-
   debian:
     # Useful URL: https://github.com/cafe-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-cafe-team/cafe-icon-theme
@@ -23,26 +10,6 @@ requires:
     - git
     - icon-naming-utils
     - intltool
-    - librsvg2-bin
-    - make
-    - pkg-config
-
-  fedora:
-    # Useful URL: https://src.fedoraproject.org/cgit/rpms/cafe-icon-theme.git
-    - curl
-    - gcc
-    - git
-    - intltool
-    - icon-naming-utils
-    - make
-    - redhat-rpm-config
-
-  ubuntu:
-    - autopoint
-    - curl
-    - git
-    - intltool
-    - icon-naming-utils
     - librsvg2-bin
     - make
     - pkg-config
