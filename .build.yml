@@ -19,7 +19,7 @@ before_scripts:
 
 build_scripts:
   - mkdir html-report
-  - ./autogen.sh
+  - NOCONFIGURE=1 ./autogen.sh
   - ./configure --enable-compile-warnings=maximum
   - make
   - make check
