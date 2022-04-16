@@ -115,6 +115,9 @@ MAINTAINERCLEANFILES = \
 	po/Makefile.in.in \
 	po/$(GETTEXT_PACKAGE).pot
 
+distclean-local:
+	rm -f po/.intltool-merge-cache.lock
+
 # Build ChangeLog from GIT  history
 ChangeLog:
 	$(AM_V_GEN) if test -d $(top_srcdir)/.git; then \
