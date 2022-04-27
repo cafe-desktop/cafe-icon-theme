@@ -1,66 +1,11 @@
-### cafe-icon-theme 1.22.0
+### cafe-icon-theme 1.25.0
 
-  * Translations update
-  * Initialize Travis CI support
-
-### cafe-icon-theme 1.21.1
-
-  * Translations update
-  * Add video single and joined display symbolic svg icons
-  * symlink input-touchpad.svg icon
-  * add a symlink for bluetooth icon
-  * add icons for touchpad
-
-### cafe-icon-theme 1.21.0
-
-  * Translations update
-  * cafe: add audio-volume-off
-
-### cafe-icon-theme 1.20.0
-
-  * fixed Translations update
-
-### cafe-icon-theme 1.19.0
-
-  * Translations update
-  * Restore Polish translation credits from GNOME
-  * replace same broken flags
-
-### cafe-icon-theme 1.18.1
-
-  * add svg iso flags
-
-### cafe-icon-theme 1.18.0
-
-  * Translations update
-
-### cafe-icon-theme 1.17.0
-
-  * Translations update
-
-### cafe-icon-theme 1.16.0
-
-  * Translations update
-  * add missing cafe.svg
-
-### cafe-icon-theme 1.14.0
-
-  * add system-config-keyboard icons
-
-### cafe-icon-theme 1.12.0
-
-  * don't build a pkgconfig file
-
-### cafe-icon-theme 1.10.1
-
-  * add more regular icons
-  * update symbolic icons
-
-### cafe-icon-theme 1.10.0
-
-  * Add symbolic icons
-
-### cafe-icon-theme 1.8.0
-
-  * Mint: Add avatar default icons for new lightdm
-  * Add bluetooth icons for bluedevil
+  * initial job: mate-icon-theme 1.22.0 fork
+  * ci: enable Github Actions
+  * rename mate -> cafe
+  * rename menta -> mint
+  * png icons with cafe logo
+  * Fix 'make distcheck'
+  * build: avoid obsolete AC_HELP_STRING
+  * rename icon-nam... -> ctk-icon-name...
+  * rename links gtk -> ctk
