@@ -1,0 +1,441 @@
+/usr/bin/cafe-autogen
+[1mchecking for autoreconf >= 2.53...
+(B[m  testing autoreconf... found 2.72
+[1mchecking for intltool >= 0.25...
+(B[m  testing intltoolize... found 0.51.0
+[1mchecking for cafe-common >= 0.0.1...
+(B[m  testing cafe-doc-common... found 2.0.0
+[1mChecking for required M4 macros...
+(B[m[1mChecking for forbidden M4 macros...
+(B[m[1mProcessing ./configure.ac
+(B[m[1mRunning cafe-doc-common...
+(B[m[1mRunning intltoolize...
+(B[m[1mRunning autoreconf...
+(B[mautoreconf: export WARNINGS=no-portability
+autoreconf: Entering directory '.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force 
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: not using Libtool
+autoreconf: running: intltoolize --copy --force
+autoreconf: configure.ac: not using Gtkdoc
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:7: installing './install-sh'
+configure.ac:7: installing './missing'
+autoreconf: Leaving directory '.'
+Skipping configure process.
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.19... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.40.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.40.1
+checking for XML::Parser... ok
+checking ctk-icon-naming-utils >= 0.8.7... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating mint/Makefile
+config.status: creating cafe/Makefile
+config.status: creating cafe/scalable/Makefile
+config.status: creating cafe/scalable-up-to-32/Makefile
+config.status: executing po/stamp-it commands
+scan-build: Analysis run complete.
+scan-build: Removing directory '/tmp/scan-build-2025-08-15-103655-7864-1' because it contains no reports.
+scan-build: No bugs found.
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+Making all in po
+make[1]: Entering directory '/rootdir/po'
+file=`echo af | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file af.po
+file=`echo am | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file am.po
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo as | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file as.po
+file=`echo ast | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ast.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn_IN.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file br.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo cmn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cmn.po
+file=`echo crh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file crh.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_AU | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_AU.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo es_AR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_AR.po
+file=`echo es_CL | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_CL.po
+file=`echo es_CO | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_CO.po
+file=`echo es_ES | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_ES.po
+file=`echo es_MX | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_MX.po
+file=`echo es_PR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es_PR.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo fr_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr_CA.po
+file=`echo frp | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file frp.po
+file=`echo fur | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fur.po
+file=`echo fy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fy.po
+file=`echo ga | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ga.po
+file=`echo gd | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gd.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo ha | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ha.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo hy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hy.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo ig | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ig.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo jv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file jv.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo kab | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kab.po
+file=`echo kk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kk.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kn.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ku | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ku.po
+file=`echo ku_IQ | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ku_IQ.po
+file=`echo ky | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ky.po
+file=`echo la | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file la.po
+file=`echo li | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file li.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mai | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mai.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mg.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo mn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mn.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nds | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nds.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo nso | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nso.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo or | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file or.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pms.po
+file=`echo ps | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ps.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sc.po
+file=`echo si | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file si.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tk.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ug.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo ur | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ur.po
+file=`echo uz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uz.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo wa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file wa.po
+file=`echo xh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file xh.po
+file=`echo yo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file yo.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+file=`echo zu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zu.po
+make[1]: Leaving directory '/rootdir/po'
+Making all in src
+make[1]: Entering directory '/rootdir/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/rootdir/src'
+Making all in mint
+make[1]: Entering directory '/rootdir/mint'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/rootdir/mint'
+Making all in cafe
+make[1]: Entering directory '/rootdir/cafe'
+Making all in scalable
+make[2]: Entering directory '/rootdir/cafe/scalable'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/rootdir/cafe/scalable'
+Making all in scalable-up-to-32
+make[2]: Entering directory '/rootdir/cafe/scalable-up-to-32'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/rootdir/cafe/scalable-up-to-32'
+make[2]: Entering directory '/rootdir/cafe'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/rootdir/cafe'
+make[1]: Leaving directory '/rootdir/cafe'
+make[1]: Entering directory '/rootdir'
+dirs="`echo ./cafe/8x8/emblems,./cafe/16x16/actions,./cafe/16x16/animations,./cafe/16x16/apps,./cafe/16x16/categories,./cafe/16x16/devices,./cafe/16x16/emblems,./cafe/16x16/emotes,./cafe/16x16/mimetypes,./cafe/16x16/places,./cafe/16x16/status,./cafe/22x22/actions,./cafe/22x22/animations,./cafe/22x22/apps,./cafe/22x22/categories,./cafe/22x22/devices,./cafe/22x22/emblems,./cafe/22x22/emotes,./cafe/22x22/mimetypes,./cafe/22x22/places,./cafe/22x22/status,./cafe/24x24/actions,./cafe/24x24/apps,./cafe/24x24/categories,./cafe/24x24/devices,./cafe/24x24/emblems,./cafe/24x24/emotes,./cafe/24x24/mimetypes,./cafe/24x24/places,./cafe/24x24/status,./cafe/32x32/actions,./cafe/32x32/animations,./cafe/32x32/apps,./cafe/32x32/categories,./cafe/32x32/devices,./cafe/32x32/emblems,./cafe/32x32/emotes,./cafe/32x32/mimetypes,./cafe/32x32/places,./cafe/32x32/status,./cafe/48x48/actions,./cafe/48x48/animations,./cafe/48x48/apps,./cafe/48x48/categories,./cafe/48x48/devices,./cafe/48x48/emblems,./cafe/48x48/emotes,./cafe/48x48/mimetypes,./cafe/48x48/places,./cafe/48x48/status,./cafe/256x256/actions,./cafe/256x256/apps,./cafe/256x256/categories,./cafe/256x256/devices,./cafe/256x256/emblems,./cafe/256x256/emotes,./cafe/256x256/mimetypes,./cafe/256x256/places,./cafe/256x256/status,scalable/actions,scalable/animations,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status,scalable-up-to-32/status | sed -e 's#./cafe/##g'`"; \
+sed -e "s|\@THEME_DIRS\@|$dirs|g" < index.theme.in.in > index.theme.in; \
+for dir in `echo $dirs | sed -e "s/,/ /g"`; do \
+	sizefull="`dirname $dir`"; \
+	if test "$sizefull" = "scalable"; then \
+		size="16"; \
+	elif test "$sizefull" = "scalable-up-to-32"; then \
+		size="16"; \
+	else \
+		size="`echo $sizefull | sed -e 's/x.*$//g'`"; \
+	fi; \
+	context="`basename $dir`"; \
+	echo "[$dir]" >> index.theme.in; \
+	if test "$context" = "actions"; then \
+		echo "Context=Actions" >> index.theme.in; \
+	fi; \
+	if test "$context" = "animations"; then \
+		echo "Context=Animations" >> index.theme.in; \
+	fi; \
+	if test "$context" = "apps"; then \
+		echo "Context=Applications" >> index.theme.in; \
+	fi; \
+	if test "$context" = "categories"; then \
+		echo "Context=Categories" >> index.theme.in; \
+	fi; \
+	if test "$context" = "devices"; then \
+		echo "Context=Devices" >> index.theme.in; \
+	fi; \
+	if test "$context" = "emblems"; then \
+		echo "Context=Emblems" >> index.theme.in; \
+	fi; \
+	if test "$context" = "emotes"; then \
+		echo "Context=Emotes" >> index.theme.in; \
+	fi; \
+	if test "$context" = "intl"; then \
+		echo "Context=International" >> index.theme.in; \
+	fi; \
+	if test "$context" = "mimetypes"; then \
+		echo "Context=MimeTypes" >> index.theme.in; \
+	fi; \
+	if test "$context" = "places"; then \
+		echo "Context=Places" >> index.theme.in; \
+	fi; \
+	if test "$context" = "status"; then \
+		echo "Context=Status" >> index.theme.in; \
+	fi; \
+	echo "Size=$size" >> index.theme.in; \
+	if test "$sizefull" = "scalable"; then \
+		echo "MinSize=8" >> index.theme.in; \
+		echo "MaxSize=512" >> index.theme.in; \
+		echo "Type=Scalable" >> index.theme.in; \
+	elif test "$sizefull" = "scalable-up-to-32"; then \
+		echo "MinSize=16" >> index.theme.in; \
+		echo "MaxSize=32" >> index.theme.in; \
+		echo "Type=Scalable" >> index.theme.in; \
+	elif test "$size" = "256"; then \
+		echo "MinSize=56" >> index.theme.in; \
+		echo "MaxSize=512" >> index.theme.in; \
+		echo "Type=Scalable" >> index.theme.in; \
+	else \
+		echo "Type=Fixed" >> index.theme.in; \
+	fi; \
+	echo "" >> index.theme.in; \
+done
+LC_ALL=C /usr/bin/intltool-merge  -d -u -c ./po/.intltool-merge-cache ./po index.theme.in index.theme
+Generating and caching the translation database
+Merging translations into index.theme.
+rm index.theme.in
+make[1]: Leaving directory '/rootdir'
+scan-build: Analysis run complete.
+scan-build: Removing directory '/rootdir/html-report/2025-08-15-103655-8378-1' because it contains no reports.
+scan-build: No bugs found.
+Making check in po
+make[1]: Entering directory '/rootdir/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package cafe-icon-theme --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/rootdir/po'
+Making check in src
+make[1]: Entering directory '/rootdir/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/rootdir/src'
+Making check in mint
+make[1]: Entering directory '/rootdir/mint'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/rootdir/mint'
+Making check in cafe
+make[1]: Entering directory '/rootdir/cafe'
+Making check in scalable
+make[2]: Entering directory '/rootdir/cafe/scalable'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/rootdir/cafe/scalable'
+Making check in scalable-up-to-32
+make[2]: Entering directory '/rootdir/cafe/scalable-up-to-32'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/rootdir/cafe/scalable-up-to-32'
+make[2]: Entering directory '/rootdir/cafe'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/rootdir/cafe'
+make[1]: Leaving directory '/rootdir/cafe'
+make[1]: Entering directory '/rootdir'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/rootdir'
