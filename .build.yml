@@ -14,7 +14,7 @@ requires:
     - librsvg2-bin
     - libxml-simple-perl #required for ctk-icon-naming-utils
     - make
-    - pkg-config
+    - pkgconf
 
 before_scripts:
   - ./install-from-git https://github.com/cafe-desktop/cafe-common master
