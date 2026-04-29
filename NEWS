@@ -1,3 +1,11 @@
+### cafe-icon-theme 2.0.0
+
+  * src,TODO: rename caja -> baul
+  * ci: some improvements
+  * add missing preferences-system-time icon
+  * update translations
+
+
 ### cafe-icon-theme 1.25.0
 
   * initial job: mate-icon-theme 1.22.0 fork
