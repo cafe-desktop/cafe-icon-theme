@@ -3,22 +3,9 @@
 ##########################################################
 requires:
   debian:
-    # Useful URL: https://github.com/cafe-desktop/debian-packages
-    # Useful URL: https://salsa.debian.org/debian-cafe-team/cafe-icon-theme
-    - autopoint
-    - curl
-    - clang-tools
-    - expect #required for unbuffer
-    - git
-    - intltool
-    - libxml-simple-perl #required for ctk-icon-naming-utils
-    - make
-    - pkgconf
 
 before_scripts:
-  - ./install-from-git https://github.com/cafe-desktop/cafe-common master
-  - ./install-from-git https://github.com/cafe-desktop/ctk-icon-naming-utils master
+  - ./debrepo-install
 
 build_scripts:
-  - ./make-scanbuild
-  - ./exit-warning
+  - ./build-debs https://github.com/cafe-desktop/debian-packages devel cafe-icon-theme
