@@ -1,3 +1,9 @@
+### cafe-icon-theme 2.2.0
+
+  * ci: remove librsvg2-bin
+  * cafe,scalable,apps: update cafe-desktop icon
+
+
 ### cafe-icon-theme 2.1.0
 
   * Fix wrong icons in 'add to panel' dialog
